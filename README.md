@@ -1,10 +1,18 @@
-## Foundry
+## MyFrenGroup 😎👩🏾🧑🏾🐱‍👤
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**You seem super cool, and I am sure you have a lot of awesome friends. This `MyFrenGroup` contract will help you store their names, Twitter(now X) handles, their countries of origin, and their favourite NFTs. Super cool! Right?**
 
-Foundry consists of:
+`MyFrenGroup` consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+-   ```
+    struct Fren {
+        string name;
+        string favNFT;
+        string country;
+        string twitterHandle;
+    }
+    ```
+    The `Fren` struct is used to input the name, favourite NFT, country, and twitter handle of each friend
 -   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
 -   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
